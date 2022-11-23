@@ -1,0 +1,3 @@
+.the-word {
+  @apply text-[#2fe691] text-center font-mono text-7xl font-semibold mt-5 select-none;
+}

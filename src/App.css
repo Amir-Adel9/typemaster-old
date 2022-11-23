@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+}
+
+html {
+  @apply bg-[#111] font-sans;
+}
+
+body {
+  @apply m-0;
+}
+
+header {
+  @apply bg-main w-full text-center text-white text-lg font-mono font-bold p-4;
+}

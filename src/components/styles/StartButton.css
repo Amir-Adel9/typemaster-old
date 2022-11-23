@@ -1,0 +1,3 @@
+.start-button {
+  @apply bg-main block m-auto w-[70%] mt-5 p-5 rounded-md text-2xl font-mono font-bold hover:scale-[1.04] hover:invert duration-300;
+}

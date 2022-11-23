@@ -1,0 +1,15 @@
+.game-state {
+  @apply bg-[#222] w-[70%] m-auto mt-5 p-4 flex justify-between rounded-lg text-center text-white text-base font-poppins font-medium;
+}
+
+.game-state span {
+  @apply text-main font-bold;
+}
+
+.lost-game {
+  @apply text-yellow-300 !important;
+}
+
+.won-game {
+  @apply text-[#2fe691] !important;
+}

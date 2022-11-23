@@ -1,0 +1,7 @@
+.words-box {
+  @apply bg-[#222] w-[70%] m-auto mt-5 p-4 flex flex-wrap justify-center rounded-lg text-center text-white text-base font-poppins font-medium;
+}
+
+.words-box span {
+  @apply bg-main m-1 p-[10px] rounded-md font-bold;
+}
