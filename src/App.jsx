@@ -51,6 +51,7 @@ function App() {
   };
   const inputFocusHandler = () => {
     inputRef.current.focus();
+    console.log(inputRef.current);
   };
   const buttonRemoveHandler = () => {
     buttonRef.current.style.display = 'none';
@@ -64,6 +65,7 @@ function App() {
     setCurrentGameInfo({ timeLeft: currentDifficulty.time });
     setCurrentGameState({ currentScore: 0 });
     buttonRef.current.style.display = 'block';
+    inputRef.current.value = '';
   };
   return (
     <div>

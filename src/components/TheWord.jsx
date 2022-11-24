@@ -2,7 +2,9 @@ import React from 'react';
 import './styles/TheWord.css';
 
 const TheWord = (props) => {
-  return <div className='the-word'>{props.theWord}</div>;
+  const theWord = props.theWord;
+  const capitalizedWord = theWord.charAt(0).toUpperCase() + theWord.slice(1);
+  return <div className='the-word'>{capitalizedWord}</div>;
 };
 
 export default TheWord;

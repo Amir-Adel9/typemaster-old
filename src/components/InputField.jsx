@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import './styles/InputField.css';
 
 const InputField = (props) => {
+  useEffect(() => {
+    props.innerRef.current.focus();
+  }, [props.result]);
   const changeInputHandler = (event) => {
     if (event.target.value === props.theWord) {
       props.gameState.currentScore++;
