@@ -6,7 +6,7 @@ const InputField = (props) => {
     props.innerRef.current.focus();
   }, [props.result]);
   const changeInputHandler = (event) => {
-    if (event.target.value === props.theWord) {
+    if (event.target.value.toLowerCase() === props.theWord.toLowerCase()) {
       props.gameState.currentScore++;
       event.target.value = '';
       props.wordHandler();
